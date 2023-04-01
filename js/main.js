@@ -6,7 +6,7 @@ $(".toggle .fa-bars").click(function () {
     $(".toggle .fa-times").fadeIn(500);
     var width = $(document).width();
     if (width <= 992 ){
-      $(".links").css("height","100vh");
+      $(".links").css("height","auto");
     } else {
       $(".links").css("height","65px");
 
